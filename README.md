@@ -3,7 +3,7 @@ This Tool is Created only for Termux user, for creating Various Platform Payload
 Use only this for Understanding the Concept Behind it
 dont try to hurm anyone for any intention, it illigal and cyber crime, knochbe4u not responsible for that.
 ------------------------
-       KNOCKBE4U
+  KNOCKBE4U
 ------------------------
 
 

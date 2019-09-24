@@ -61,7 +61,7 @@ dol="/sdcard/inject"
 if [ ! -d "$test" ]
  then
     echo -e $ye "  [ ${re}-${ye} ]${re} CREATING NEW DIRECTORY"
-    mkdir /sdcard/ghost
+    mkdir /sdcard/destronok
     echo " "
     sleep 2
     echo -e $ye "  [${lg} ✔ ${ye}] ${blue}DIRECTORY CREATED"

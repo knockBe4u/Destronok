@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/home/Destronok/bin/bash
+#!/bin/bash
 # THIS TOOL IS WRITTEN ONLY FOR TURMUX NO ROOT USER
 # TOOL CODED BY KOCKBE4U
 # PROGRAM BY SUBHO GOSWAMI

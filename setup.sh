@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/home/Destronok/bin/bash
+#!/bin/bash
 echo -e "\e[32m===============================\e[0m"
 echo -e "\e[32m|    WELCOME TO DESTRONOCK    \e[32m|"
 echo -e "\e[32m===============================\e[0m"

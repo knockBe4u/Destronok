@@ -17,7 +17,7 @@ which figlet > /dev/null 2>&1
 if [ "$?" -eq "0" ]
  then
     echo " "
-    echo -e $ye "[${re} ✔ ${ye}]...............................${lg}[ Figlet ]"
+    echo -e $ye "[${re} ✔ ${ye}]===============================${lg}[FIGLET ]"
     echo " "
     sleep 2
  else
@@ -29,14 +29,14 @@ fi
 which msfconsole > /dev/null 2>&1
 if [ "$?" -eq "0" ]
  then
-    echo -e $ye "[ ${re}✔ ${ye}]............................${lg}[ Metasploit ]"
+    echo -e $ye "[ ${re}✔ ${ye}]=============================${lg}[ METASPLOIT ]"
     which msfconsole > /dev/null 2>&1
     echo ""
     sleep 2
  else 
    echo ""
    echo "   [-] METASPLOIT NOT FOUND.INSTALLING METASPLOIT "
-   git clone https://github.com/GhosTmaNHarsh/metasploit
+   git clone https://github.com/rapid7/metasploit-framework.git
    cd metasploit
    chmod 777 metasploit.sh
    ./metasploit.sh
@@ -49,14 +49,14 @@ apt install toilet -y >/dev/null 2>&1
 pkg install ruby -y > /dev/null 2>&1
 gem install lolcat > /dev/null 2>&1
 echo -e $lg ""
-chmod 777 ghost-droid
+chmod 777 Destronok
 echo -e $blue " "
 echo -n " ENTER TO CONTINUE "
 read mm
 clear
 echo ""
 echo ""
-test="/sdcard/ghost"
+test="/sdcard/destronok"
 dol="/sdcard/inject"
 if [ ! -d "$test" ]
  then

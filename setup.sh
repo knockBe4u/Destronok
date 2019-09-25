@@ -49,7 +49,6 @@ apt install toilet -y >/dev/null 2>&1
 pkg install ruby -y > /dev/null 2>&1
 gem install lolcat > /dev/null 2>&1
 echo -e $lg ""
-chmod 777 Destronok
 echo -e $blue " "
 echo -n " ENTER TO CONTINUE "
 read mm

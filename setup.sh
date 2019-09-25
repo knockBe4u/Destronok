@@ -4,28 +4,16 @@ blue='\e[1;34m'
 re='\e[1;31m'
 clear
 echo " "
-echo -e "\e[32m===============================\e[0m"
-echo -e "\e[32m|    WELCOME TO DESTRONOCK    \e[32m|"
-echo -e "\e[32m===============================\e[0m"
-
-echo -e "\e[33m-- ENVIRMENTAL SETUP PROSESS --\e[0m "
-echo -e "\e[32m====================================\e[0m"
-echo -e "\e[32m===== GIVE ME FEW MINUTES \e[32m===="
-echo -e "\e[32m== DEPENDS ON YOUR INTERNET SPEED \e[32m=="
-echo -e "\e[32m====================================\e[0m"
-which figlet > /dev/null 2>&1
-if [ "$?" -eq "0" ]
- then
-    echo " "
-    echo -e $ye "[${re} ✔ ${ye}]===============================${lg}[FIGLET ]"
-    echo " "
-    sleep 2
- else
-    echo -e $blue " [ ! ] INSTALLING FIGLET........."
-    pkg install figlet -y > /dev/null 2>&1
-    echo " "
-
-fi
+echo -e "\e[32m ===================================\e[92m|"
+echo -e "\e[32m |    \e[100m WELCOME TO SETUP PROCESS \e[0m  \e[92m  |"
+echo -e "\e[32m ===================================\e[0m\e[92m|" 
+echo -e "\e[92m |   \e[45m INSTALL  PREREQUISITE TOOL\e[0m    \e[92m|"             
+echo -e "\e[92m |   \e[100m CODED BY SUBHAYAN GOSWAMI\e[0m     \e[92m|"                 
+echo -e "\e[92m |==================================\e[92m|"
+echo -e "\e[92m | \e[40m ITS ONLY EDUCATIONAL PURPOSE\e[0m   \e[92m |"
+echo -e "\e[92m |==================================\e[92m|"
+sleep 2
+#========================================================================================================
 which msfconsole > /dev/null 2>&1
 if [ "$?" -eq "0" ]
  then

